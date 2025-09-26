@@ -508,8 +508,8 @@ Light:
   m_Color: {r: 0.77084816, g: 0.8411476, b: 0.9669811, a: 1}
   m_Intensity: 3
   m_Range: 10
-  m_SpotAngle: 158.81131
-  m_InnerSpotAngle: 137.5336
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 87.53125
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -662,7 +662,7 @@ Transform:
   m_GameObject: {fileID: 737434754}
   serializedVersion: 2
   m_LocalRotation: {x: 0.15788278, y: -0.2247919, z: 0.047744982, w: 0.96034473}
-  m_LocalPosition: {x: 1.19, y: 3.26, z: -2.71}
+  m_LocalPosition: {x: 0.79, y: 3.25, z: -2.91}
   m_LocalScale: {x: 2.4098, y: 2.4098, z: 2.4098}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -701,11 +701,11 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.9716981, g: 0.95775336, b: 0.8616946, a: 1}
-  m_Intensity: 4
+  m_Color: {r: 0.9292453, g: 0.89167476, b: 0.66625136, a: 1}
+  m_Intensity: 3
   m_Range: 10
   m_SpotAngle: 179
-  m_InnerSpotAngle: 72.94494
+  m_InnerSpotAngle: 76.30644
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -1199,7 +1199,7 @@ Transform:
   m_GameObject: {fileID: 1693635528}
   serializedVersion: 2
   m_LocalRotation: {x: 0.36117357, y: 0.23670913, z: 0.24782006, w: 0.86724144}
-  m_LocalPosition: {x: -2.8, y: 2.5, z: -3.3}
+  m_LocalPosition: {x: -3.89, y: 6.08, z: -4.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 3
   m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
+  m_AdditionalLightsShadowResolutionTier: -1
   m_LightLayerMask: 1
   m_RenderingLayers: 1
   m_CustomShadowLayers: 0
@@ -1238,20 +1238,20 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 0
-  m_Color: {r: 0.9492057, g: 0.9528302, b: 0.80900675, a: 1}
+  m_Color: {r: 1, g: 0.99172884, b: 0.9339623, a: 1}
   m_Intensity: 8
   m_Range: 20
-  m_SpotAngle: 95
-  m_InnerSpotAngle: 55
+  m_SpotAngle: 119.33334
+  m_InnerSpotAngle: 43.236717
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: 128
+    m_Resolution: 2048
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
     m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NearPlane: 1.3
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
